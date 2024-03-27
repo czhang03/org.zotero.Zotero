@@ -8,14 +8,8 @@ finish-args:
   - --socket=x11
   - --share=ipc
   - --share=network
-  - --filesystem=home
-  - --filesystem=xdg-desktop
-  - --filesystem=xdg-documents
-  - --filesystem=xdg-download
-  - --filesystem=xdg-music
-  - --filesystem=xdg-pictures
-  - --filesystem=xdg-public-share
-  - --filesystem=xdg-videos
+  - --persist=.zotero
+  - --persist=Zotero
 modules:
   - shared-modules/dbus-glib/dbus-glib.json
   - name: zotero
