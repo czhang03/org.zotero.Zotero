@@ -12,10 +12,12 @@
       organize, cite, and share your research sources.
     </p>
     <p>
-      NOTE: If your Zotero folder is not located inside your home directory (~/)
-      and is outside your xdg-user-dirs, please grant permission to access that
+      NOTE: by default, the Zotero folders will appear in "~/.var/app/org.zotero.Zotero/".
+      If your Zotero folder is not located elsewhere,
+      please grant permission to access that
       folder by the flatpak-override command (usage:
-      "flatpak override --user --filesystem=/PATH/TO/ZOTEROFOLDER org.zotero.Zotero").
+      "flatpak override --user --filesystem=/PATH/TO/ZOTEROFOLDER org.zotero.Zotero" 
+      or use [flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)).
     </p>
     <p>
       NOTE: This flatpak is not verified by, affiliated with, or supported by the Zotero project.
